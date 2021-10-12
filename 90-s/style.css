@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+width: 100%;
+height: 80px;
+background-color: plum;
+
+}
+ul {
+
+
+}
+
+
+ul li {
+list-style: none;
+display: inline-block;
+line-height: 100px;
+
+
+}
+
+ul li a {
+ display: block;
+ text-decoration: none;
+ font-size: 15px;
+ font-family: 'Times New Roman', Times, serif;
+ color: olivedrab;
+ padding: 0 20px;
+}
+
+ul li a:hover {
+    color:purple;
+}
+
+.home {
+    text-align: center;
+
+}
+.home p {
+    font-size: 20px;
+    ;
+
+}
+.home-img {
+    display: flex;
+    justify-content: center;
+    
+}
+.home-img:hover {
+    transform: scaleX(-1);
+}
+
+.nintendo {
+    text-align: center;
+}
+
+.nintendo h1 {
+    background-color: red;
+    color: white;
+
+}
+
+.nintendo p {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+ img {
+     width: 100%;
+     height: 80%;
+     align-items: center;
+ }
+
+.aboutme h1 {
+    background-color: midnightblue;
+    text-align: center;
+    color: yellow;
+    text-shadow: rgb(206, 62, 5);
+}
+.aboutme h1:hover {
+    color: red;
+}
+.aboutme p {
+    background-color: gray;
+    font-size: 17px;
+    color: maroon;
+}
+
+
+
+.hobbies h1 {
+    text-align: center;
+    color: black;
+    background-color: salmon;
+}
+
+.hobbies h1:hover{
+    color: orange;
+}
+
+.hobbies p {
+    text-align: center;
+    font-size: 17px;
+    background-color: silver;
+}
+
+.contact h1 {
+    text-align: center;
+}
+.contact p {
+ text-align: center;
+ color: blue;
+}
