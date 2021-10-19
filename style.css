@@ -1,0 +1,68 @@
+body{
+    background-color: black
+}
+header{
+    /* border: 3px solid green; */
+    color:white;
+    font-size: 40px;
+    background-color: black;
+    /* color: rgb(235, 235, 8); */
+} 
+.head{
+    font-size: 22px;
+    color: black;
+    background-color: orange;
+}
+.top {
+    text-align: center;
+
+}
+
+nav {
+    background-color: #A4BC38;
+}
+.hover{
+    background-color: #A4BC38;
+}
+.hover:hover {
+    background-color: rgb(124, 219, 35);
+}
+
+.card-text {
+    font-family: comic sans ms;
+}
+
+.container{
+    border: 5px solid rgb(255, 165, 0);
+   background-color: grey;
+    
+}
+
+
+.col-9 {
+    text-align: center;
+    font-size: 25px;
+  font-family: comic sans ms; 
+}
+ .col-7 {
+    font-size: 20;
+    /* border: 4px solid black; */
+} 
+
+.localh{
+    color: white;
+    text-align: center;
+}
+.grid{
+    
+    border: 3px solid rgb(63, 129, 8); 
+}
+.g-col-6{
+    color: white;
+    margin: 2px;
+  text-align: center;
+    border: 1px solid rgb(105, 71, 9);
+}
+h5{
+    color: rgb(58, 173, 4);
+}
