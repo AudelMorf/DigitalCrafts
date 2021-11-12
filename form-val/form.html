@@ -1,0 +1,36 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js" ></script>
+</head>
+<body>
+  
+<h1>Sign up</h1>
+  <div id="error"></div>
+  <form id="form">
+    <div>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text"  minlength="6" title="Must be more than 6 or 6 characters" required>
+    </div>
+    <br>
+    <div>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" required>
+    </div>
+    <br>
+    <div>
+      <label for="bio">About me</label>
+      <textarea id="bio" name="bio" minlength="30" maxlength="250" required></textarea>
+    </div>
+    <br>
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" pattern=".+@gmail\.com" size="30" required>
+      <br>
+      <label for="robot">Are you a robot?</label>
+      <input type="radio" name="yes" id="yes" value="yes"> yes
+      <input type="radio" name="no" id="no" value="no" > no
+      <br>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+</body>
+      
